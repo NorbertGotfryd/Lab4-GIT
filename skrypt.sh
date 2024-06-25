@@ -6,8 +6,8 @@ case "$1" in
 esac
   --help|-h)
     echo "Mozliwe opcje:"
-    echo "--data, -d: Dzis jest's date"
-    echo "--logs, -l [number]: Create log files"
-    echo "--help, -h: Display this help message"
+    echo "--date, -d: Wyswietl dzisiejsza date"
+    echo "--logs, -l [number]: Stworz pliki logow logs"
+    echo "--help, -h: Wyswietl help wiadomosc"
     ;;
 esac
