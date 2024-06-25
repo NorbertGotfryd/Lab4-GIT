@@ -16,3 +16,16 @@ esac
     export PATH=$PATH:$(pwd)/Lab4-GIT
     ;;
 esac
+  --error|-e)
+    if [ -z "$2" ]; then
+      count=100
+    else
+      count=$2
+    fi
+    mkdir -p error
+    for ((i=1; i<=count; i++))
+    do
+      echo "Plik bledow $i stworzony przez skrypt.sh on $(date)" > error/error$i.txt
+    gotowe
+    ;;
+esac
